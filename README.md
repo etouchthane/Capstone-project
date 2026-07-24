@@ -65,6 +65,11 @@ Run tests
 Inside littlelemon directory:
 python manage.py test
 
+Step 10
+To Collect Static files
+python manage.py collectstatic --noinput
+
+
 
 
 
