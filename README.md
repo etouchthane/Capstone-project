@@ -71,6 +71,4 @@ To Collect Static files
 
 
 
-
-
 - 
