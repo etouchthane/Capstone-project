@@ -1,2 +1,4 @@
 /api/bookings/
-/api/registration/
+/admin #root is the username and password is qwedsa
+/api
+
