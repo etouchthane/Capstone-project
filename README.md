@@ -8,18 +8,18 @@ SQL Database Name: LittleLemon
 
 To run the project please use below commands
 Step 1 
-git clone <YOUR_GITHUB_REPO_URL>
-cd Capstone-project
+- git clone <YOUR_GITHUB_REPO_URL>
+- cd Capstone-project
 
 Step 2
-python3.12 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python --version
-python -m pip install --upgrade pip
+- python3.12 -m venv .venv
+- .\.venv\Scripts\Activate.ps1
+- python --version
+- python -m pip install --upgrade pip
 
 Step 3 
-python3.12 -m venv .venv
-pip install -r requirements.txt
+- python3.12 -m venv .venv
+- pip install -r requirements.txt
 
 Step 4 
 Current database settings in code use:
@@ -30,7 +30,7 @@ Current database settings in code use:
 - host: 127.0.0.1
 - port: 3306
 
-- Step 5
+Step 5
 - Login as MySQL admin and run:
 
 ```sql
@@ -47,12 +47,12 @@ CREATE DATABASE littlelemon CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
 Step 6
-cd littlelemon
-python manage.py migrate
-python manage.py createsuperuser
+- cd littlelemon
+- python manage.py migrate
+- python manage.py createsuperuser
 
 Step 7
-python manage.py runserver
+- python manage.py runserver
 
 Step 8 
 App should be available at:
@@ -63,11 +63,11 @@ App should be available at:
 Step 9
 Run tests
 Inside littlelemon directory:
-python manage.py test
+- python manage.py test
 
 Step 10
 To Collect Static files
-python manage.py collectstatic --noinput
+- python manage.py collectstatic --noinput
 
 
 
