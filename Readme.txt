@@ -1,0 +1,10 @@
+/
+/api/menu-items/
+/api/menu-items/<int:pk>/
+/api/bookings/
+/api/bookings/<int:pk>/
+/api/api-token-auth/
+/api/message/
+/auth/users/
+/auth/token/login/
+/auth/token/logout/
