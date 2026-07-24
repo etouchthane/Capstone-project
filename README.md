@@ -60,6 +60,11 @@ App should be available at:
 - http://127.0.0.1:8000/
 - Admin: http://127.0.0.1:8000/admin/
 
+Step 9
+Run tests
+Inside littlelemon directory:
+python manage.py test
+
 
 
 
