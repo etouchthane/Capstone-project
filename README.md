@@ -54,6 +54,12 @@ python manage.py createsuperuser
 Step 7
 python manage.py runserver
 
+Step 8 
+App should be available at:
+
+- http://127.0.0.1:8000/
+- Admin: http://127.0.0.1:8000/admin/
+
 
 
 
